@@ -22,3 +22,6 @@ button:hover{
 button:active{
     background-color:  hsl(190, 90%, 40%);
 }
+body{
+    background-color: rgb(88, 83, 83);
+}
