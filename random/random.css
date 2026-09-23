@@ -1,0 +1,23 @@
+label{
+    margin: 10px 10px;
+    font-size: 2rem;
+}
+input{
+    margin: 10px 10px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 100px;
+}
+body{
+    background-color: hsl(75, 8%, 72%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#roll{
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+p{
+    text-align: center;
+}

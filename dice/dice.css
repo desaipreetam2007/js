@@ -1,0 +1,43 @@
+#container{
+    font-family:  Tahoma, sans-serif;
+    text-align: center;
+
+}
+#numofdice{
+    font-size: 1.5rem;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+button{
+    font-size: 2rem;
+    border: none;
+    background-color: hsl(201, 53%, 45%);
+    margin: 7px;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 10px 10px;
+}
+button:hover{
+    background-color: hsl(201, 53%, 55%);
+
+}
+button:active{
+    background-color: hsl(201, 53%, 80%);
+
+}
+#diceresult{
+    
+    margin: 5px ;
+    font-weight: bold;
+}
+#diceimg img{
+    width: 150px;
+    margin:5px;
+
+}
+label{
+    font-weight: bold;
+}
