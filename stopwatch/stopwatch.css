@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 7%, 74%);
+}
+#heading{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5rem;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    padding: 25px;
+    border-radius: 30px;
+}
+#timer{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5rem;
+    padding:20px ;
+
+}
+#controls button{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    
+}
+
+
+#startbtn{
+    background-color: hsl(115,110%,40%);
+}
+#startbtn:hover{
+    background-color: hsl(115,110%,30%);
+}
+#startbtn:active{
+    background-color:hsl(115,110%,20%) ;
+}
+#stopbtn{
+    background-color: hsl(0, 100%, 40%);
+}
+#stopbtn:hover{
+    background-color: hsl(0, 100%, 30%);
+}
+#stopbtn:active{
+    background-color:  hsl(0, 100%, 20%);
+}
+#resetbtn{
+    background-color: hsl(194, 68%, 50%);
+}
+#resetbtn:hover{
+    background-color: hsl(194, 68%, 45%);
+}
+#resetbtn:active{
+    background-color: hsl(194, 68%, 30%) ;
+}
